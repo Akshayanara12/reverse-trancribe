@@ -1,0 +1,6 @@
+$rna='AUGC';
+print"$rna\n";
+$dna=$rna;
+$dna=~s/U/T/g;
+print"$dna\n";
+exit
